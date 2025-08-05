@@ -63,6 +63,7 @@ const Hero = () => {
                 <Eye className="mr-2 h-5 w-5" />
                 View My Work
               </Button>
+<<<<<<< HEAD
 
               <a
                 href="https://drive.google.com/file/d/1VHhae40Mf0Mzacg9Wdu7fQ0kvI3wbAJY/view?usp=sharing"
@@ -78,6 +79,24 @@ const Hero = () => {
                   Download CV
                 </Button>
               </a>
+=======
+              
+            <a
+  href="https://drive.google.com/file/d/1WYlGAa5DAmHpDghDhfri_o0ZpwxWcbnY/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button 
+    variant="outline" 
+    size="lg"
+    className="font-medium px-8 py-3 h-auto"
+  >
+    <Download className="mr-2 h-5 w-5" />
+    Download CV
+  </Button>
+</a>
+
+>>>>>>> f2e089f (finish details)
             </div>
 
             {/* Scroll Indicator */}
