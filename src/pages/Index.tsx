@@ -5,8 +5,11 @@ import About from '@/components/About';
 import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
 import Services from '@/components/Services';
+import Projects from '@/components/projects';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+
+
 
 const Index = () => {
   const [isDark, setIsDark] = useState(false);
@@ -41,6 +44,7 @@ const Index = () => {
       <Experience />
       <Skills />
       <Services />
+      <Projects />
       <Contact />
       <Footer />
     </div>

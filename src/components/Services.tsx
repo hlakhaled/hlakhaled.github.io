@@ -139,25 +139,6 @@ const Services = () => {
             })}
           </div>
 
-          {/* Call to Action */}
-          <div className="text-center mt-16 animate-fade-in">
-            <p className="text-lg text-muted-foreground mb-6">
-              Ready to start your next project?
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-hero-gradient hover:opacity-90 transition-opacity shadow-hero-glow text-white font-medium px-8 py-3 h-auto"
-              onClick={() => {
-                const element = document.querySelector('#contact');
-                if (element) {
-                  element.scrollIntoView({ behavior: 'smooth' });
-                }
-              }}
-            >
-              Get In Touch
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-          </div>
         </div>
       </div>
     </section>
