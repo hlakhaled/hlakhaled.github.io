@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Portfolio Design System - All colors, gradients, fonts, animations defined here */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    /* Light mode palette */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    
+    /* Brand colors */
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 262 83% 70%;
+    
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+    
+    --accent: 43 74% 66%;
+    --accent-foreground: 30 10% 9%;
+    
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 262 83% 58%;
+    
+    /* Custom tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(43 74% 66%) 100%);
+    --hero-glow: 0 25px 50px -12px hsl(262 83% 58% / 0.25);
+    --card-shadow: 0 4px 6px -1px hsl(220 13% 91% / 0.1), 0 2px 4px -1px hsl(220 13% 91% / 0.06);
+    --card-shadow-hover: 0 20px 25px -5px hsl(220 13% 91% / 0.1), 0 10px 10px -5px hsl(220 13% 91% / 0.04);
+    
+    /* Spacing and sizing */
+    --radius: 0.75rem;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode palette */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    
+    /* Brand colors for dark mode */
+    --primary: 262 83% 70%;
+    --primary-foreground: 240 10% 3.9%;
+    --primary-glow: 262 83% 80%;
+    
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --accent: 43 74% 70%;
+    --accent-foreground: 240 10% 3.9%;
+    
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    
+    --destructive: 0 72% 65%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 262 83% 70%;
+    
+    /* Dark mode custom tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(262 83% 70%) 0%, hsl(43 74% 70%) 100%);
+    --hero-glow: 0 25px 50px -12px hsl(262 83% 70% / 0.3);
+    --card-shadow: 0 4px 6px -1px hsl(240 3.7% 15.9% / 0.3), 0 2px 4px -1px hsl(240 3.7% 15.9% / 0.2);
+    --card-shadow-hover: 0 20px 25px -5px hsl(240 3.7% 15.9% / 0.4), 0 10px 10px -5px hsl(240 3.7% 15.9% / 0.3);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
