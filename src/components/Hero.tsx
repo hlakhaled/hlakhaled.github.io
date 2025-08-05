@@ -57,14 +57,21 @@ const Hero = () => {
                 View My Work
               </Button>
               
-              <Button 
-                variant="outline" 
-                size="lg"
-                className="font-medium px-8 py-3 h-auto"
-              >
-                <Download className="mr-2 h-5 w-5" />
-                Download CV
-              </Button>
+            <a
+  href="https://drive.google.com/file/d/1WYlGAa5DAmHpDghDhfri_o0ZpwxWcbnY/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button 
+    variant="outline" 
+    size="lg"
+    className="font-medium px-8 py-3 h-auto"
+  >
+    <Download className="mr-2 h-5 w-5" />
+    Download CV
+  </Button>
+</a>
+
             </div>
 
             {/* Scroll Indicator */}

@@ -1,6 +1,6 @@
 import { Card } from '@/components/ui/card';
 import { GraduationCap, MapPin, Calendar } from 'lucide-react';
-import profileImage from '@/assets/profile-portrait.jpg';
+import profileImage from '@/assets/profile.jpg';
 
 const About = () => {
   const education = [
@@ -59,17 +59,7 @@ const About = () => {
                     with a strong GPA of 3.8, I have delivered impactful projects in authentication, UI/UX design, 
                     and responsive cross-platform applications.
                   </p>
-                  <p>
-                    My expertise lies in Flutter development using clean architecture principles, state management 
-                    with BLoC and Cubit patterns, and Firebase integration. I'm passionate about creating 
-                    user-centered mobile solutions that solve real-world problems while maintaining performance 
-                    optimization and clean code practices.
-                  </p>
-                  <p>
-                    Through internships at ITI and NTI, I've gained hands-on experience in building mobile 
-                    applications and applying modern design principles. I thrive in collaborative environments 
-                    and am committed to delivering high-quality solutions that add value in industry settings.
-                  </p>
+                 
                 </div>
               </div>
 
