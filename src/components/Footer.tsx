@@ -17,6 +17,7 @@ const Footer = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    
   };
 
   return (
