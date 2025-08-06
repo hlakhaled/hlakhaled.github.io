@@ -10,12 +10,7 @@ const About = () => {
       year: "2022-2026",
       location: "Zagazig, Egypt"
     },
-    {
-      degree: "Flutter Advanced Course: Bloc and MVVM Pattern",
-      institution: "Udemy",
-      year: "2024",
-      location: "Online"
-    }
+ 
   ];
 
   return (

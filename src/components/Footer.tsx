@@ -88,11 +88,7 @@ const Footer = () => {
               <span>© {currentYear} Hla Khaled EL Tahawy. All rights reserved.</span>
             </div>
             
-            <div className="flex items-center text-sm text-muted-foreground">
-              <span>Made with</span>
-              <Heart className="h-4 w-4 mx-1 text-red-500 animate-pulse" />
-              <span>by Hla Khaled EL Tahawy</span>
-            </div>
+          
           </div>
         </div>
       </div>
