@@ -8,7 +8,6 @@
 =======
 >>>>>>> aaa72c9 (eit footer)
   "scripts": {
-    
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
@@ -16,6 +15,7 @@
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -34,6 +34,8 @@
 =======
 
 >>>>>>> 8581db9 (edit pages)
+=======
+>>>>>>> 53c9369 (edit pages)
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
