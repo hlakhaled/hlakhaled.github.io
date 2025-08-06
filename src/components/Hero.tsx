@@ -48,9 +48,14 @@ const Hero = () => {
             </h2>
 
             <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
+<<<<<<< HEAD
               Computer Science student specializing in Flutter development and
               mobile app design. Passionate about creating user-centered mobile
               solutions with clean architecture and real-time API integration.
+=======
+              Computer Science student specializing in Flutter development and mobile app design. 
+              Passionate about creating user-centered mobile solutions with clean architecture and real-time API integration.
+>>>>>>> aaa72c9 (eit footer)
             </p>
 
             {/* CTA Buttons */}
