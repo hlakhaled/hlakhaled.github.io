@@ -25,6 +25,7 @@ const Skills = () => {
       ]
     },
     {
+      
       title: "Design & UI/UX",
       icon: Palette,
       color: "text-pink-500",
