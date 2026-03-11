@@ -49,6 +49,7 @@ const Hero = () => {
 
             <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
 <<<<<<< HEAD
+<<<<<<< HEAD
               Computer Science student specializing in Flutter development and
               mobile app design. Passionate about creating user-centered mobile
               solutions with clean architecture and real-time API integration.
@@ -56,6 +57,11 @@ const Hero = () => {
               Computer Science student specializing in Flutter development and mobile app design. 
               Passionate about creating user-centered mobile solutions with clean architecture and real-time API integration.
 >>>>>>> aaa72c9 (eit footer)
+=======
+              Computer Science student specializing in Flutter development and
+              mobile app design. Passionate about creating user-centered mobile
+              solutions with clean architecture and real-time API integration.
+>>>>>>> a7ac75a (edit cv)
             </p>
 
             {/* CTA Buttons */}
@@ -68,6 +74,7 @@ const Hero = () => {
                 <Eye className="mr-2 h-5 w-5" />
                 View My Work
               </Button>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
               <a
@@ -102,6 +109,23 @@ const Hero = () => {
 </a>
 
 >>>>>>> f2e089f (finish details)
+=======
+
+              <a
+                href="https://drive.google.com/file/d/1VHhae40Mf0Mzacg9Wdu7fQ0kvI3wbAJY/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="font-medium px-8 py-3 h-auto"
+                >
+                  <Download className="mr-2 h-5 w-5" />
+                  Download CV
+                </Button>
+              </a>
+>>>>>>> a7ac75a (edit cv)
             </div>
 
             {/* Scroll Indicator */}
