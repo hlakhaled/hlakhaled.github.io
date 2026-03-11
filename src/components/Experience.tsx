@@ -1,39 +1,45 @@
-import { Card } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Building, Calendar, MapPin } from 'lucide-react';
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { Building, Calendar, MapPin } from "lucide-react";
 
 const Experience = () => {
   const experiences = [
     {
-      title: "UI/UX Design Trainee",
-      company: "National Telecommunication Institute – NTI",
-      duration: "July 2025 – August 2025",
+      title: "Flutter Developer Intern",
+      company: "Digital Egypt Builders Initiative – DEPI",
+      duration: "Nov 2025 – Jun 2026",
       location: "Remote",
       type: "Internship",
       responsibilities: [
-        "Learned fundamental UI/UX concepts including user research, wireframing, and prototyping",
-        "Applied clean architecture and state management techniques like Bloc and Cubit in real projects",
-        "Integrated Firebase services and improved UI responsiveness across multiple screen sizes",
-        "Created user-centered designs following modern design principles",
-        "Developed skills in creating wireframes, mockups, and interactive prototypes"
+        "Specialized training in Flutter mobile development and modern software engineering practices.",
+        "Developed strong soft skills including communication, teamwork, and time management.",
       ],
-      technologies: ["Figma", "UI/UX Design", "Wireframing", "Prototyping", "User Research"]
+      technologies: [
+        "Flutter",
+        "Dart",
+        "Mobile Development",
+        "Clean Architecture",
+      ],
     },
     {
-      title: "Flutter Intern",
-      company: "Information Technology Institute – ITI",
-      duration: "August 2024 – September 2024",
+      title: "UI/UX Design Trainee",
+      company: "National Telecommunication Institute – NTI",
+      duration: "Jul 2025 – Aug 2025",
       location: "Remote",
       type: "Internship",
       responsibilities: [
-        "Gained hands-on experience in building mobile applications using Flutter and Dart",
-        "Applied clean architecture and state management techniques like Bloc and Cubit in real projects",
-        "Integrated Firebase services and improved UI responsiveness across multiple screen sizes",
-        "Developed feature-rich applications with real-time data handling",
-        "Collaborated with team members on mobile app development projects"
+        "Learned fundamental UI/UX concepts including user research, wireframing, and prototyping.",
+        "Applied clean architecture and state management techniques like Bloc and Cubit in real projects.",
+        "Integrated Firebase services and improved UI responsiveness across multiple screen sizes.",
       ],
-      technologies: ["Flutter", "Dart", "Firebase", "BLoC", "Cubit", "Clean Architecture"]
-    }
+      technologies: [
+        "Figma",
+        "UI/UX Design",
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+      ],
+    },
   ];
 
   return (
@@ -43,18 +49,22 @@ const Experience = () => {
           {/* Section Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              Work <span className="bg-hero-gradient bg-clip-text text-transparent">Experience</span>
+              Work{" "}
+              <span className="bg-hero-gradient bg-clip-text text-transparent">
+                Experience
+              </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              My professional journey and the impactful projects I've contributed to
+              My professional journey and the impactful projects I've
+              contributed to
             </p>
           </div>
 
           {/* Experience Timeline */}
           <div className="space-y-8">
             {experiences.map((exp, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="p-8 shadow-card hover:shadow-card-hover transition-all duration-300 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
@@ -65,11 +75,15 @@ const Experience = () => {
                         <Building className="h-6 w-6 text-primary" />
                       </div>
                       <div>
-                        <h3 className="text-xl font-display font-semibold">{exp.title}</h3>
-                        <p className="text-primary font-medium">{exp.company}</p>
+                        <h3 className="text-xl font-display font-semibold">
+                          {exp.title}
+                        </h3>
+                        <p className="text-primary font-medium">
+                          {exp.company}
+                        </p>
                       </div>
                     </div>
-                    
+
                     <div className="flex flex-wrap gap-4 text-sm text-muted-foreground mb-4 ml-16">
                       <div className="flex items-center">
                         <Calendar className="h-4 w-4 mr-1" />
@@ -88,7 +102,9 @@ const Experience = () => {
 
                 {/* Responsibilities */}
                 <div className="mb-6">
-                  <h4 className="font-semibold mb-3">Key Responsibilities & Achievements:</h4>
+                  <h4 className="font-semibold mb-3">
+                    Key Responsibilities & Achievements:
+                  </h4>
                   <ul className="space-y-2">
                     {exp.responsibilities.map((resp, respIndex) => (
                       <li key={respIndex} className="flex items-start">
@@ -104,7 +120,11 @@ const Experience = () => {
                   <h4 className="font-semibold mb-3">Technologies Used:</h4>
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech, techIndex) => (
-                      <Badge key={techIndex} variant="outline" className="text-xs">
+                      <Badge
+                        key={techIndex}
+                        variant="outline"
+                        className="text-xs"
+                      >
                         {tech}
                       </Badge>
                     ))}
