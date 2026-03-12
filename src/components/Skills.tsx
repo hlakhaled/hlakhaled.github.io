@@ -14,6 +14,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Mobile Development",
+      
       icon: Smartphone,
       color: "text-blue-500",
       skills: [
