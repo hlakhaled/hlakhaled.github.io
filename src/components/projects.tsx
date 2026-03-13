@@ -70,11 +70,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
-                  >
+                  <Button variant="outline" size="sm" className=   "font-medium px-3 py-2 h-auto">
                     {project.isLive ? (
                       <ExternalLink className="mr-2 h-4 w-4" />
                     ) : (

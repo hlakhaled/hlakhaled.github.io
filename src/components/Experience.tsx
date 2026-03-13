@@ -49,7 +49,7 @@ const Experience = () => {
           {/* Section Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              Work{" "}
+              Internship{" "}
               <span className="bg-hero-gradient bg-clip-text text-transparent">
                 Experience
               </span>
