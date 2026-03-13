@@ -41,7 +41,10 @@ const Projects = () => {
           {/* Section Header */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">
-              Project <span className="bg-hero-gradient bg-clip-text text-transparent">Showcase</span>
+              Project{" "}
+              <span className="bg-hero-gradient bg-clip-text text-transparent">
+                Showcase
+              </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               A curated collection of apps and designs I’ve created
@@ -59,9 +62,19 @@ const Projects = () => {
                 <h3 className="text-xl font-display font-semibold text-primary mb-2">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground mb-6">{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline" size="sm" className="text-white">
+                <p className="text-muted-foreground mb-6">
+                  {project.description}
+                </p>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="text-gray-900 dark:text-white border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
                     {project.isLive ? (
                       <ExternalLink className="mr-2 h-4 w-4" />
                     ) : (
@@ -72,21 +85,20 @@ const Projects = () => {
                 </a>
               </Card>
             ))}
-            
           </div>
-          
+
           {/* Call to Action */}
           <div className="text-center mt-16 animate-fade-in">
             <p className="text-lg text-muted-foreground mb-6">
               Ready to start your next project?
             </p>
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-hero-gradient hover:opacity-90 transition-opacity shadow-hero-glow text-white font-medium px-8 py-3 h-auto"
               onClick={() => {
-                const element = document.querySelector('#contact');
+                const element = document.querySelector("#contact");
                 if (element) {
-                  element.scrollIntoView({ behavior: 'smooth' });
+                  element.scrollIntoView({ behavior: "smooth" });
                 }
               }}
             >
